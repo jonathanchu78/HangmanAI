@@ -1,0 +1,9 @@
+right now, I'm around 20%; on my last try I was at 0.2 for 35 games but haven't been able to fully test it tonight 
+
+to reset:
+python reset.py
+
+to play the game:
+python hangman.py
+
+there are probably bugs right now that will cause the program to exit before finishing :(
