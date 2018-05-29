@@ -68,8 +68,9 @@ def nextGuess(str, already_guessed):
 		length = len(line) - 1
 		if not length in map:
 			map[length] = []
-		if line[:-1] not in map[length]:
-			map[length].append(line[:-1])
+		map[length].append(line[:-1])
+		#if line[:-1] not in map[length]:
+		#	map[length].append(line[:-1])
 	infile.close()
 	return mostFreqLetter(longestWord(str), already_guessed)
 

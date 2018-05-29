@@ -52,7 +52,7 @@ def play():
 	#guess_num = 0
 	while not finished:
 		if response["status"] == "DEAD" or response["status"] == "FREE":
-			mine(response["lyrics"])
+			#mine(response["lyrics"])
 			return
 		# guess_num = guess_num + 1
 		state = response["state"]
